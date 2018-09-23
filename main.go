@@ -26,7 +26,7 @@ const (
 )
 
 func main() {
-	fx := newFx("data/scene.obj", "data/flower.png", "data/light.png")
+	fx := newFx("data/scene.obj", "data/dcrlogo.png", "data/light.png")
 	gfx.Run(func() { gfx.RunTimedMusic(fx, "music/music.mp3") })
 	//gfx.RunWriteToDisk(fx, 11, "./saved/frame-%05d.png")
 }
